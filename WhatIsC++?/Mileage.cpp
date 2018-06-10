@@ -11,6 +11,12 @@ int main()            // Must be there in every program
     //input using extraction operator
     cin>>mpg;  //cin reads from console, cout writes to console.
 
+    cout<<"Enter distance in miles."<<endl;
+    cin>>distance;
+
+    cout<<"Enter Price per gallon"<<endl;
+    cin>>pricePerGallon;
+
     gallons = distance/mpg;
 
     totalCost = gallons * pricePerGallon;
